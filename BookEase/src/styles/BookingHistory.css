@@ -1,0 +1,49 @@
+/* Pastel background color for the page */
+.container {
+  background-color: #f5f5f5; /* Light pastel background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Styling the cards container to space out cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+}
+
+/* Styling individual cards */
+.card {
+  width:300px;
+  background-color: #e787d8; /* White background for the card */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 15px;
+  transition: transform 0.3s ease-in-out; /* Animation on hover */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+/* Styling the card title */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #490d85;
+}
+
+/* Styling the card text */
+.card-body p {
+  font-size: 18px;
+  color: #110606;
+}
+
+/* Centering the header */
+h2.text-center {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}

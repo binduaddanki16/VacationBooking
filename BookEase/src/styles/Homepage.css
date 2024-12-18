@@ -1,0 +1,46 @@
+/* src/styles/Homepage.css */
+.text-center {
+  text-align: center;
+  background: #fff;
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #ff5a5f; /* Primary color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff385c; /* Darker shade for hover effect */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}

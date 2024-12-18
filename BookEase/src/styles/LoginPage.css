@@ -1,0 +1,29 @@
+/* src/styles/LoginPage.css */
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+/* src/styles/SignupPage.css */
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
